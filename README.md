@@ -1,4 +1,4 @@
-Scope Achievements of VIT Chennai Website
+#Scope Achievements of VIT Chennai Website
 
 
 This is a website created by me and my teammate Z as a part of our college project. The website focuses on showcasing the achievements of VIT Chennai in various fields such as academics, sports, cultural events, research, etc.
