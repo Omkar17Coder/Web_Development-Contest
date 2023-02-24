@@ -1,22 +1,25 @@
 <h1 align="center">Welcome to Web Development Contest 👋</h1>
 <p>
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
+  <img alt="Version" src="https://img.shields.io/badge/version-First-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Scope Achievements of VIT Chennai Website
+> Hello
 
-### 🏠 [Homepage](This is a website created by me and my teammate Z as a part of our college project. The website focuses on showcasing the achievements of VIT Chennai in various fields such as academics, sports, cultural events, research, etc.)
+### 🏠 [Homepage](https://dhananjay-chauhan.github.io/Contest/#)
 
-### ✨ [Demo](In the future, we plan to add the following enhancements to the website:)
+### ✨ [Demo](https://dhananjay-chauhan.github.io/Contest/#)
+
+## Author
+
+👤 **Dhananjay-Chauhan**
+
+* Github: [@Dhananjay Chauhan](https://github.com/Dhananjay Chauhan)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
 ***
-_This README was generated with ❤️ by Omkar17Coder
-
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
 
 
