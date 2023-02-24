@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    
+}
+
+.nvbr-in{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.nav-2{
+    /* margin-top: 2vh; */
+
+    height: 6vh;
+    width: 100%;
+    z-index: 3;
+    color: #172793; 
+    /* background-color: #0ea2dd; */
+}
+.navbar-collapse{
+    padding-top: 10px;
+}
+.nav-colored { 
+    background: linear-gradient(132deg, #0728e2, #0ea2dd);
+    color: white;
+}
+.nav-transparent { 
+    background-color:transparent;
+}
+
+
+
+ul{
+    list-style: none;
+}
+li{
+    font-family: 'Cormorant', serif; 
+    font-size: x-large;
+    font-weight: 450;
+}
+
+.nav-link{
+    border-radius: 6px;
+    
+}
+.nav-link:hover{
+    text-transform: capitalize;
+    scale: 1.10;
+    background-color: rgb(173, 230, 238);
+    transition: scale 1.25s ease-in-out,background-color 2s ease-in-out,border-radius 2s ease-in-out;
+    
+}
+.brand {
+    /* font-size: 40px; */
+    color: white;
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* jakadjad */
+/*
+
+*/
+
+/*  */
+
+/* .heading1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6.5vh;
+    border-bottom-style: double;
+} */
+.heading2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vh;
+}
+
+
+.flex-next{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box1{
+    height: 70%;
+     width: 50%;
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+    margin: 2px 2px 2px 2px;
+    /* border: 6px solid red; */
+    padding: 10px 10px 10px 10px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2px 2px 2px 2px;
+    /* border: 6px solid red; */
+    padding: 10px 10px 10px 10px;
+    height:70%;
+    width: 50%;
+    /* align-items: center; */
+     border-radius: 25px;
+     margin-top: 2.5vh;
+}
+.flex-all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    /* background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+
+}
+.image1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.image1 img{
+    border-radius: 25px;
+}
+
+/* 
+ */
+ 
+ .box1 h1{
+    color: #484848;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Raleway;
+    letter-spacing: 7px;
+    cursor: pointer
+  }
+
+ .box1  h1 span{
+    transition: .5s linear
+  }
+ .box1  h1:hover span:nth-child(1){
+    margin-right: 5px
+  }
+  /* h1:hover span:nth-child(1):after{
+    content: "'";
+  } */
+  .box1 h1:hover span:nth-child(2){
+    margin-left: 20px;
+    font-size: 90px;
+  }
+ .box1  h1:hover span{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(34, 2, 2),
+                 0 0 20px rgb(24, 22, 22), 
+                 0 0 40px rgb(25, 22, 22);
+  }
+  .containerr, .card{
+    height: 100%;
+    width: 100%;
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #69eeff;
+  }
+  .card{
+    border: none;
+
+}
+.card :hover{
+    /* transform: scaleY(1.025);  */
+    /* transform: scaleX(1.025);  */
+    transform: scale(1.025,1.025);
+
+}
+img{
+    border-radius: 15px;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/* .social-icons {
+    margin-top: 0px;
+    padding: 0;
+    list-style: none;
+    margin: 1em;
+} */
+.social-icons {
+    background-color: #0728e2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding: 1em;
+    list-style: none;
+    margin-top: 0em;
+    /* height: vh; */
+  }
+.social-icons li {
+    display: inline-block;
+    margin: 1.015em;
+    position: relative;
+    font-size: 2.28em;
+}
+
+.social-icons i {
+    color: #fff;
+    position: absolute;
+    top: 0.95em;
+    left: 0.96em;
+    transition: all 265ms ease-out;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons a:before {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    content: " ";
+    width: 101px;
+    height: 101px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(45deg, #00f7ff, #11afd6);
+    transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+    transform: scale(0);
+    transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+    transform: scale(2.2);
+    -ms-transform: scale(2.2);
+    -webkit-transform: scale(2.2);
+    color: #40abc5;
+    background: -webkit-linear-gradient(45deg, #00e1ff, #07d9e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 265ms ease-in;
+}
+
+
+/* omkar */
+.ddc{
+    display: flex;
+    height: 50vh;
+    justify-content: space-evenly;
+    background-color: #00e1ff;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Poiret One', cursive;
+    color:#172793 ;
+}
+
+.dos{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: medium;
+} 
+
+.flex{
+    display:flex;
+    align-items: center;
+
+}
+
+.butn{
+    /* margin-top: 2vh; */
+    height: 10vh;
+    background-color: #9de0ff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+.link-column a{
+    font-family: 'Poiret One', cursive;
+    color:#172793 ;
+    font-size: larger;
+}
+
+
+.image img{
+    width: 50%;
+}
+
+
+.pre-foot{
+    padding:80px;
+    background-color: #b9cde4;
+}
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between
+    ;
+}
+.subfooter{
+    background-color: #8ba6c0;
+    padding: var(--padding-inline-section);
+}
+.subfooter-container{
+    justify-content: center;
+    gap:30px;
+flex-wrap: wrap;
+}
+
+.butn button{
+    height: 40px;
+    width: 180px;
+    border: none;
+    background-color: white;
+    color: #1411dd;
+    border-radius: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+.butn button:hover{
+    border: 2px solid rgb(14, 202, 187);
+    
+}
+.butn a{
+    text-decoration: none;
+}
+/* @media screen and (max-width: 570px) {
+    .butn{
+        margin-top: 2vh;
+        height: 20vh;
+        background-color: #9de0ff;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+  } */
+  /* fonts of body */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+  h1{
+    font-family: 'Poiret One', cursive;
+    color:#172793 ;
+
+  }
+  h2{
+    font-family: 'Poiret One', cursive;
+    color:#172793 ;
+  }
+  .card-body ul li, .card-body div{
+    font-family: 'Poiret One', cursive;
+    color: #708cdb;
+  }
+.heading {
+    text-align: center;
+    background-color: #69eeff;
+    height: 10vh;
+    padding-top: 2vh;
+
+}
+.heading h1{
+    font-family: 'Poiret One', cursive;
+    color:#172793 ;
+
+}
+@media screen and (max-width:600px) {
+    .foooter{
+      height: 75vh;
+    }
+    .ddc{
+        height: 125vh;
+    }
+
+    .butn{
+        height: 20vh;
+
+    }
+  }
