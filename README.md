@@ -18,9 +18,9 @@
 This is a website created by me and my teammate Dhananjay-Chauhan  as a part of our college project. The website focuses on showcasing the achievements of VIT Chennai 
 SCOPE Students.
 
-## Technologies Used
+# Technologies Used
 
-# We have used the following technologies to develop this website:
+## We have used the following technologies to develop this website:
 
 HTML
 CSS
